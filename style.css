@@ -1,0 +1,126 @@
+h1{
+    font-size: 42px;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.packages-title, .tour-title-container{
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+header, .navbar, .navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+.navbar ul{
+    list-style-type: none;
+    gap: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    gap: 40px;
+}
+
+header{
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo{
+    height: 70px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.book-now-btn, .view-all-btn, .read-more-btn{
+    background-color: blue;
+    padding: 12px;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-all-btn{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.read-more-btn{
+    display: inline-block;
+}
+
+.package-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.package-container img{
+    width: 100%;
+}
+
+#tour-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px
+}
+
+
+#package-section{
+    margin-bottom: 30px;
+}
+
+.tour-package{
+    border: 1px solid black;
+}
+
+.tour-package img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tour-package {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tour-title{
+    font-weight: bold;
+}
+
+.tour-title, .tour-description{
+    padding: 0px 20px;
+}
+
+footer{
+    border-top: 1px solid gray;
+}
+
+footer p{
+    text-align: center;
+}
